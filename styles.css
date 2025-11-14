@@ -63,12 +63,20 @@ nav ul{
 
 
 .home{
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 20px;
+    height: 560px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+.home:hover{
+    /* scale: 100%; */
+    box-shadow: 0 6px 4px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
 }
 
 #image{
