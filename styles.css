@@ -31,6 +31,7 @@ header a{
 }
 
 nav{
+    z-index: 110;
     margin-left: -100px;
     text-decoration: none;
 }
@@ -80,7 +81,7 @@ nav ul{
 }
 
 #image{
-    width: 40%;
+    width: 42%;
     height: absolute;
     object-fit: contain;
     border-radius: 12px;
@@ -141,7 +142,7 @@ nav ul{
     padding: 10px;
     position: absolute;
     gap: 40px;
-    top: 530px;
+    top: 510px;
     right: 190px;
     z-index: 110;
     list-style: none;
