@@ -30,6 +30,7 @@ header:hover{
 .head-element{
     display: inline-flex;
     gap: 1rem;
+    align-items: center;
 }
 .head-element ul li a{
     text-decoration: none;
@@ -149,13 +150,11 @@ ul{
     justify-content: space-between;
 }
 .card{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(33, 32, 52);
     height: 40vh;
     width: 22vw;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: auto;
-    gap: 10px; 
     border: 0.01rem solid wheat;
 }
 .card:hover{
@@ -168,3 +167,5 @@ ul{
     width: 22vw;
     height: 20vh;
 }
+.card h3{margin-left: 0.5rem;}
+.card p{margin-left: 0.5rem;}
