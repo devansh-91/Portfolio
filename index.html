@@ -2,62 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1440px, initial-scale=auto">
-    <title>DEVANSH MISHRA </title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="name">DEVANSH MISHRA</h1>
-        <nav class="navbar">
+        <div class="head-element">
+            <img src="profile.png" alt="" id="profile">
+        <!-- </div>
+        <div class="head-element"> -->
+            <h1>DEVASNH MISHRA</h1>
+        </div>
+        <div class="head-element">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </nav>
-        <img src="profile.png" alt="Profile Picture" id="profile">
+        </div>
     </header>
-
-    <div class="home">
-        <h1 id="line1">Hi , I'm</h1>
-        <h1 id="line2">DEVANSH MISHRA</h1>
-        <h1 id="line3">DEVANSH MISHRA</h1>
-            <div id="des">
-                <p>I’m Devansh, a B.Tech engineering student building projects 
-                in web development and exploring AI/ML. I turn ideas into clean, functional, 
-                and thought-driven digital experiences</p>
+    <img src="image.png" alt="" id="image">
+    <div class="sections" id="home">
+        <div class="home-flex">
+            <div class="home-elements" id="line1"><h1>HI , I'm</h1></div>
+            <div class="home-elements name" id="line2">
+                <div class="name-part"><h1>DEVANSH</h1></div>
+                <div class="name-part"><h1> MISHRA</h1></div>
             </div>
-        <img src="image.png" alt="" id="image">
-        <div id="handles">
-            <ul>
-                <li><a href="https://github.com/devansh-91/" target="_blank"><img src="github.png" alt="" id="github"> </a></li>
-                <li><a href="https://www.linkedin.com/in/devansh-mishra-b47785315/" target="_blank"><img src="linkedin.png" alt="" id="linkedin"></a></li>
-                <li><a href="#"><img src="twitter.png" alt="" id="twitter"></a></li>
-                <li><a href="#"><img src="instagram.png" alt="" id="instagram"></a></li>
-            </ul>
+            <div class="home-elements home-sub-flex" id="des">
+                <div class="home-des">
+                    <p>I’m Devansh, a B.Tech engineering student building projects 
+                    in web development and exploring AI/ML. I turn ideas into clean, functional, 
+                    and thought-driven digital experiences.</p>
+                </div>
+                <div class="socials">
+                    <ul>
+                        <li><a href="#"><img src="linkedin.png" alt="logo.png"></a></li>
+                        <li><a href="#"><img src="github.png" alt="logo.png"></a></li>
+                        <li><a href="#"><img src="instagram.png" alt="logo.png"></a></li>
+                        <li><a href="#"><img src="twitter.png" alt="logo.png"></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     
-    <div class="about">
-        <h1 id="about">About Me</h1>
-        <div class="about-des">
-            <p>I’m Devansh, an engineering student who loves exploring technology in every
-             direction. I’ve worked with multiple Linux distros including Ubuntu, Kali,
-              and Arch, and I enjoy experimenting with new tools, customizations, and
-               emerging tech. <br>
-            I’m deeply interested in AI and machine learning, especially large language
-             models, and I’m currently building a human-like AI assistant as a personal
-              project. <br>
-            I like connecting with people who share a curiosity for tech, ideas, and 
-            innovation, and I’m always looking for opportunities to learn, collaborate, 
-            and create meaningful projects.</p>
-        </div>
-        <!-- <img src="image.png" alt="" id="about-image"> -->
-        <div class="pic">
-            <img src="collage.png" alt="" id="collage">
+    <div class="sections" id="about">
+        <h1 class="heading">ABOUT ME</h1>
+        <div class="about-flex">
+            <div class="about-elements" id="about-description">
+                <p>I’m Devansh, an engineering student who loves exploring technology in every
+                direction. I’ve worked with multiple Linux distros including Ubuntu, Kali,
+                  and Arch, and I enjoy experimenting with new tools, customizations, and
+                emerging tech. <br><br>
+                I’m deeply interested in AI and machine learning, especially large language
+                models, and I’m currently building a human-like AI assistant as a personal
+                project. <br><br>
+                 I like connecting with people who share a curiosity for tech, ideas, and 
+                 innovation, and I’m always looking for opportunities to learn, collaborate, 
+                and create meaningful projects.
+                </p>
+            </div>
+            <div class="about-elements">
+                <img src="my-image.png" alt="" id="about-image">
+            </div>
         </div>
     </div>
+    
+    <div class="sections" id="project">
+        <h1 class="heading">PROJECTS</h1>
+        <div class="projects-grid">
+            <div class="card">
+                <img src="card.png" alt="" class="card-img">
+            </div>
+            <div class="card"></div>
+            <!-- <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div> -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="sections">
+
+        </div>
+    </footer>
+
 </body>
 </html>
