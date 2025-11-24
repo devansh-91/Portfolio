@@ -212,13 +212,13 @@ ul{
 
 @media(max-width: 450px){
     header{
-        width: 340%;
+        width: 335%;
     }
     .sections{
         width: 335%;
     }
     .footer{
-        width: 340%;
+        width: 335%;
     }
     #image{
         margin-top: -40%;
