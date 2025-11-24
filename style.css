@@ -14,7 +14,6 @@ header{
     padding: 1rem;
     display: flex;
     align-items: center;
-    width: 400vw;
     justify-content:space-between;
     border-radius: 3rem;
     border: 0.005rem solid black;
@@ -53,7 +52,7 @@ ul{
 .sections{
     background-color: rgb(46, 44, 79);
     margin: 0.5rem;
-    width: 94%;
+    width: 95%;
     height: auto;
     border-radius: 2rem;
     border: 0.05rem solid black;
@@ -73,6 +72,8 @@ ul{
 
 #image{
     position: absolute;
+    align-items: center;
+    justify-self: center;
     display: inline;
     margin-left: 30%;
     margin-top: -9%;
@@ -165,7 +166,7 @@ ul{
     z-index: 100;
 }
 .card-img{
-    width: 22vw;
+    width: auto;
     height: 20vh;
 }
 .card h3{margin-left: 0.5rem;}
@@ -207,4 +208,35 @@ ul{
 .box2{
     width: 300%;
     height: 5rem;
+}
+
+@media(max-width: 450px){
+    header{
+        width: 340%;
+    }
+    .sections{
+        width: 335%;
+    }
+    #image{
+        margin-top: -40%;
+        margin-left: 95%;
+        height: 90vh;
+    }
+    #line1{
+        font-size: 6vh;
+    }
+    #line2{
+        font-size: 5.5vh;
+    }
+    .home-des{
+        /* font-size: 2.5vh; */
+        width: 105vw;
+    }
+    .card{
+        width: auto;
+    }
+    #about-description{
+        font-size: 2.4vh;
+        width: 70%;
+    }
 }
