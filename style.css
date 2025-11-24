@@ -14,6 +14,7 @@ header{
     padding: 1rem;
     display: flex;
     align-items: center;
+    width: 400vw;
     justify-content:space-between;
     border-radius: 3rem;
     border: 0.005rem solid black;
@@ -83,7 +84,7 @@ ul{
 .home-flex{
     display: flex;
     flex-direction: column;
-    margin-right: 5rem;
+    margin-right: 3rem;
 }
 .home-sub-flex{
     display: flex;
@@ -169,3 +170,41 @@ ul{
 }
 .card h3{margin-left: 0.5rem;}
 .card p{margin-left: 0.5rem;}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 13rem;
+    background-color: rgb(35, 34, 38);
+    /* height: 50vh; */
+    width: 100%;
+    padding: 3rem;
+    padding-left: 5rem;
+}
+#dash{
+    color: yellow;
+}
+.contact-details{
+    margin-top: 5vh;
+    gap: 1h;
+    display: flex;
+    flex-direction: column;
+}
+.display-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon{
+    height: 6vh;
+    gap: 5vh;
+    margin: 1vh;
+}
+.box1{
+    width: 300%;
+}
+.box2{
+    width: 300%;
+    height: 5rem;
+}
